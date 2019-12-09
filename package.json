@@ -5,6 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com/Hongjiseong/boilerplate-1-youtube.git",
   "scripts": {
+    "bas": "webpack && node src/server.js",
     "start": "node src/server.js",
     "start:dev": "webpack-dev-server --config ./webpack.config.js --mode development --open",
     "test": "",
